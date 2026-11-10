@@ -1,0 +1,150 @@
+{
+  "_doc": "La carte. Prix relevés sur la carte papier la plus récente du restaurant (photos publiées sur sa fiche Google, relevé du 10/11/2026) : à faire valider. null = prix à confirmer (affiché « prix sur place »). Noms et compositions dans locales/fr.json et en.json → products. photo : chemins essayés dans l'ordre (le premier présent dans public/media gagne ; sinon emplacement illustré). tags : vegetarian, vegan. sauce : sauce maison au choix (sauceDefault = celle de la recette). menu : formule possible (+ frites maison et canette 33 cl, prix dans formula). option : choix à faire à la commande (listes dans options). onSiteOnly : servi sur place seulement (pas dans la commande à emporter).",
+  "checked": "2026-11-10",
+  "formula": { "price": 3, "drink": "soda" },
+  "sauces": ["blanche", "petit-pois", "ail", "gribiche", "tahini", "cocktail"],
+  "options": {
+    "cheese": ["feta", "burrata", "chevre-miel"],
+    "cheese2": ["feta", "burrata", "cheddar"],
+    "soda": ["coca", "coca-zero", "fanta-orange", "fanta-citron", "orangina", "oasis", "tropico", "schweppes", "fuze-tea", "ice-tea", "perrier", "sprite"],
+    "juice": ["orange", "abricot", "pomme", "ananas"],
+    "syrup": ["menthe", "fraise", "peche", "grenadine", "citron", "violette"]
+  },
+  "extras": [
+    { "id": "feta", "price": 3 },
+    { "id": "burrata", "price": 3 },
+    { "id": "chevre-miel", "price": 3 },
+    { "id": "cheddar", "price": 3 },
+    { "id": "avocat", "price": 3 }
+  ],
+  "categories": [
+    { "id": "doner", "items": ["berliner-classic", "berliner-feta", "berliner-burrata", "berliner-chevre-miel", "berliner-avocat", "berliner-gemuse", "berliner-chef", "berliner-trio", "berliner-raclette", "berliner-cheddar", "berliner-poulet", "berliner-escalope-royale", "berliner-vegge"] },
+    { "id": "durum", "items": ["durum-classic", "durum-berliner", "durum-chef", "durum-mixte", "durum-avocat", "durum-cheddar", "durum-raclette", "durum-poulet", "durum-escalope-royale", "durum-vegge-feta", "durum-vegan"] },
+    { "id": "assiettes", "items": ["assiette-classic", "assiette-berliner", "assiette-berliner-avocat", "assiette-chef", "assiette-gemuse", "assiette-trio", "assiette-poulet", "assiette-escalope-royale", "assiette-vegge", "assiette-vegan"] },
+    { "id": "burgers", "items": ["burger-classic", "burger-parisien", "burger-raclette", "burger-chevre-miel", "chicken-burger", "double-protein", "salade-feta", "salade-burrata", "salade-cesar", "salade-norvegienne"] },
+    { "id": "menus", "items": ["menu-enfant", "frites-maison", "frites-cheddar", "frites-cheddar-bacon"] },
+    { "id": "boissons", "items": ["soft", "ayran", "jus", "diabolo", "cristalline", "san-pellegrino", "espresso", "double-espresso", "allonge", "americano", "creme", "cappuccino"] },
+    { "id": "desserts", "items": ["baklava", "lokum", "tarte-daim"] }
+  ],
+  "items": {
+    "berliner-classic": { "price": 9.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-classic.jpg"], "illus": "berliner", "star": true },
+    "berliner-feta": { "price": 11.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-feta.jpg"], "illus": "berliner", "star": true },
+    "berliner-burrata": { "price": 12.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-burrata.jpg"], "illus": "berliner", "star": true },
+    "berliner-chevre-miel": { "price": 12.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-chevre-miel.jpg"], "illus": "berliner" },
+    "berliner-avocat": { "price": 12.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-avocat.jpg"], "illus": "berliner" },
+    "berliner-gemuse": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-gemuse.jpg"], "illus": "berliner", "star": true },
+    "berliner-chef": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "option": "cheese", "photo": ["/media/plats/berliner-chef.jpg"], "illus": "berliner" },
+    "berliner-trio": { "price": 17.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-trio.jpg"], "illus": "berliner" },
+    "berliner-raclette": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-raclette.jpg"], "illus": "berliner" },
+    "berliner-cheddar": { "price": 11.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-cheddar.jpg"], "illus": "berliner" },
+    "berliner-poulet": { "price": 11.99, "tags": [], "sauce": true, "sauceDefault": "gribiche", "menu": true, "photo": ["/media/plats/berliner-poulet.jpg"], "illus": "berliner" },
+    "berliner-escalope-royale": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-escalope-royale.jpg"], "illus": "berliner" },
+    "berliner-vegge": { "price": 11.99, "tags": ["vegetarian"], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/berliner-vegge.jpg"], "illus": "berliner" },
+
+    "durum-classic": { "price": 9.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-classic.jpg"], "illus": "durum", "star": true },
+    "durum-berliner": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "option": "cheese2", "photo": ["/media/plats/durum-berliner.jpg"], "illus": "durum" },
+    "durum-chef": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-chef.jpg"], "illus": "durum" },
+    "durum-mixte": { "price": 12.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-mixte.jpg"], "illus": "durum" },
+    "durum-avocat": { "price": 12.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-avocat.jpg"], "illus": "durum" },
+    "durum-cheddar": { "price": 11.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-cheddar.jpg"], "illus": "durum" },
+    "durum-raclette": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-raclette.jpg"], "illus": "durum" },
+    "durum-poulet": { "price": 11.99, "tags": [], "sauce": true, "sauceDefault": "gribiche", "menu": true, "photo": ["/media/plats/durum-poulet.jpg"], "illus": "durum" },
+    "durum-escalope-royale": { "price": 13.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-escalope-royale.jpg"], "illus": "durum" },
+    "durum-vegge-feta": { "price": 11.99, "tags": ["vegetarian"], "sauce": true, "sauceDefault": "blanche", "menu": true, "photo": ["/media/plats/durum-vegge-feta.jpg"], "illus": "durum" },
+    "durum-vegan": { "price": 10.99, "tags": ["vegan"], "sauce": true, "sauceDefault": "tahini", "menu": true, "photo": ["/media/plats/durum-vegan.jpg"], "illus": "durum" },
+
+    "assiette-classic": { "price": 15.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-classic.jpg"], "illus": "plate", "star": true },
+    "assiette-berliner": { "price": 17.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "option": "cheese", "photo": ["/media/plats/assiette-berliner.jpg"], "illus": "plate" },
+    "assiette-berliner-avocat": { "price": 17.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-berliner-avocat.jpg"], "illus": "plate" },
+    "assiette-chef": { "price": 18.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "option": "cheese", "photo": ["/media/plats/assiette-chef.jpg"], "illus": "plate" },
+    "assiette-gemuse": { "price": 18.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-gemuse.jpg"], "illus": "plate" },
+    "assiette-trio": { "price": 22.5, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-trio.jpg"], "illus": "plate" },
+    "assiette-poulet": { "price": 15.99, "tags": [], "sauce": true, "sauceDefault": "gribiche", "menu": false, "photo": ["/media/plats/assiette-poulet.jpg"], "illus": "plate" },
+    "assiette-escalope-royale": { "price": 18.99, "tags": [], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-escalope-royale.jpg"], "illus": "plate" },
+    "assiette-vegge": { "price": 15.99, "tags": ["vegetarian"], "sauce": true, "sauceDefault": "blanche", "menu": false, "photo": ["/media/plats/assiette-vegge.jpg"], "illus": "plate" },
+    "assiette-vegan": { "price": 15.99, "tags": ["vegan"], "sauce": true, "sauceDefault": "tahini", "menu": false, "photo": ["/media/plats/assiette-vegan.jpg"], "illus": "plate" },
+
+    "burger-classic": { "price": 13.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/burger-classic.jpg"], "illus": "burger" },
+    "burger-parisien": { "price": 14.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/burger-parisien.jpg"], "illus": "burger" },
+    "burger-raclette": { "price": 14.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/burger-raclette.jpg"], "illus": "burger" },
+    "burger-chevre-miel": { "price": 14.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/burger-chevre-miel.jpg"], "illus": "burger" },
+    "chicken-burger": { "price": 13.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/chicken-burger.jpg"], "illus": "burger" },
+    "double-protein": { "price": 17.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/double-protein.jpg"], "illus": "burger" },
+    "salade-feta": { "price": 12.99, "tags": ["vegetarian"], "sauce": false, "menu": false, "photo": ["/media/plats/salade-feta.jpg"], "illus": "salad" },
+    "salade-burrata": { "price": 13.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/salade-burrata.jpg"], "illus": "salad" },
+    "salade-cesar": { "price": 13.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/salade-cesar.jpg"], "illus": "salad" },
+    "salade-norvegienne": { "price": 13.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/salade-norvegienne.jpg"], "illus": "salad" },
+
+    "menu-enfant": { "price": 9.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/menu-enfant.jpg"], "illus": "fries" },
+    "frites-maison": { "price": 4.5, "tags": ["vegan"], "sauce": false, "menu": false, "photo": ["/media/plats/frites-maison.jpg"], "illus": "fries" },
+    "frites-cheddar": { "price": 6, "tags": ["vegetarian"], "sauce": false, "menu": false, "photo": ["/media/plats/frites-cheddar.jpg"], "illus": "fries" },
+    "frites-cheddar-bacon": { "price": 7.5, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/frites-cheddar-bacon.jpg"], "illus": "fries" },
+
+    "soft": { "price": 3, "tags": [], "sauce": false, "menu": false, "option": "soda", "photo": [], "illus": "can" },
+    "ayran": { "price": 3, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "can" },
+    "jus": { "price": 4, "tags": [], "sauce": false, "menu": false, "option": "juice", "photo": [], "illus": "glass" },
+    "diabolo": { "price": 3.5, "tags": [], "sauce": false, "menu": false, "option": "syrup", "photo": [], "illus": "glass" },
+    "cristalline": { "price": 2.5, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "glass" },
+    "san-pellegrino": { "price": 4, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "glass" },
+    "espresso": { "price": 2, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+    "double-espresso": { "price": 3.8, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+    "allonge": { "price": 2.9, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+    "americano": { "price": 3, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+    "creme": { "price": 3.5, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+    "cappuccino": { "price": 4, "tags": [], "sauce": false, "menu": false, "photo": [], "illus": "cup" },
+
+    "baklava": { "price": 4.99, "tags": ["vegetarian"], "sauce": false, "menu": false, "photo": ["/media/plats/baklava.jpg"], "illus": "dessert" },
+    "lokum": { "price": 4.99, "tags": [], "sauce": false, "menu": false, "photo": ["/media/plats/lokum.jpg"], "illus": "dessert" },
+    "tarte-daim": { "price": 4.99, "tags": ["vegetarian"], "sauce": false, "menu": false, "photo": ["/media/plats/tarte-daim.jpg"], "illus": "dessert" }
+  },
+  "bar": [
+    {
+      "id": "pression",
+      "sizes": ["25 cl", "50 cl"],
+      "rows": [
+        ["Licorne blonde", 4.2, 7.8],
+        ["Slash Berry (fruits rouges)", 4.8, 9],
+        ["Monaco", 4.5, 8],
+        ["Panaché", 4.5, 8],
+        ["Picon bière", 4.5, 8.5]
+      ]
+    },
+    {
+      "id": "bouteilles",
+      "rows": [
+        ["Rebelle blanche 33 cl", 7],
+        ["Rebelle blonde 33 cl", 7],
+        ["Rebelle triple 33 cl", 7.5],
+        ["Efes 33 cl", 5.5],
+        ["Heineken 25 cl", 4],
+        ["1664 25 cl", 4],
+        ["1664 sans alcool 33 cl", 6],
+        ["Cidre 25 cl", 5.5]
+      ]
+    },
+    {
+      "id": "vins",
+      "sizes": ["15 cl", "37,5 cl", "75 cl"],
+      "rows": [
+        ["Rouge Yakut", null, 15, 28],
+        ["Rosé Lâl", null, 15, 28],
+        ["Blanc Kavaklıdere", null, null, 28],
+        ["Verre de l'Ardèche (rouge, rosé, blanc)", 5, null, null]
+      ]
+    },
+    {
+      "id": "aperitifs",
+      "rows": [
+        ["Martini rouge ou blanc 5 cl", 4],
+        ["Ricard 2 cl", 4],
+        ["Kir (cassis, pêche, violette, fraise)", 6],
+        ["Yeni Rakı 4 cl", 8],
+        ["Rakı Gold Tekirdağ 4 cl", 9],
+        ["Vodka 4 cl", 8],
+        ["J&B 4 cl", 8],
+        ["Whisky 4 cl", 9],
+        ["Get 27", 7]
+      ]
+    }
+  ]
+}

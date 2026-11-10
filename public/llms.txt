@@ -1,0 +1,16 @@
+# Berlin Durum Kebab
+
+> Kebab berlinois (döner façon Berlin, durum, assiettes, burgers) au 41 quai Belu, 80000 Amiens, quartier Saint-Leu, au bord de la Somme. Restaurant turc noté 4,9/5 sur Google (511 avis, relevé du 10/11/2026). Sur place, en terrasse au bord de l'eau ou à emporter. Commande à emporter en ligne, paiement au comptoir. Téléphone : 09 55 76 18 32.
+
+- Spécialité : le « Berliner », kebab en pain pide à la berlinoise (crudités, chou rouge, chou blanc, fêta, légumes grillés), dès 9,99 € ; en menu (frites maison + canette 33 cl) + 3 €.
+- Kebab 100 % maison : veau et dinde marinés 24 heures, confits 3 heures sur la broche, montée à la main chaque jour. Frites maison, six sauces maison (blanche, gribiche, ail légère, petit pois, tahini, cocktail), steak frais du boucher pour les burgers.
+- Carte : Berliner 9,99 – 17,99 €, durum 9,99 – 13,99 €, assiettes 15,99 – 22,50 €, burgers 13,99 – 17,99 €, salades 12,99 – 13,99 €, menu enfant 9,99 €, desserts 4,99 €. Options végétariennes (falafels) et véganes (boulettes de lentilles).
+- Horaires : tous les jours 11 h 30 – 23 h ; vendredi et samedi jusqu'à minuit ; mercredi pause 15 h 30 – 17 h 30.
+
+## Pages
+
+- [Accueil](https://berlin-durum-amiens.vercel.app/fr)
+- [La carte et les prix](https://berlin-durum-amiens.vercel.app/fr/carte)
+- [Kebab à Amiens](https://berlin-durum-amiens.vercel.app/fr/kebab-amiens)
+- [Döner berlinois à Amiens](https://berlin-durum-amiens.vercel.app/fr/doner-berlinois-amiens)
+- [English version](https://berlin-durum-amiens.vercel.app/en)
