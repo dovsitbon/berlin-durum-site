@@ -4,8 +4,12 @@
     "description": "Berlin döner, durum and plates at 41 quai Belu, Saint-Leu. Homemade kebab marinated for 24 hours, hand-cut fries, homemade sauces, a terrace on the River Somme. Rated 4.9/5 on Google. Takeaway orders.",
     "ogAlt": "Berlin Durum Kebab, Berlin-style döner by the River Somme in Amiens"
   },
-  "intro": { "skip": "Skip" },
-  "announce": { "close": "Close announcement" },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close announcement"
+  },
   "nav": {
     "skip": "Skip to content",
     "menu": "Site menu",
@@ -55,10 +59,26 @@
   "services": {
     "title": "Our services",
     "items": [
-      { "id": "emporter", "title": "Takeaway", "text": "Order online, pick it up." },
-      { "id": "surplace", "title": "Eat in", "text": "The counter, the room, the good mood." },
-      { "id": "terrasse", "title": "Waterside terrace", "text": "Almost dipping your toes in the Somme." },
-      { "id": "telephone", "title": "Order by phone", "text": "One call to +33 9 55 76 18 32." }
+      {
+        "id": "emporter",
+        "title": "Takeaway",
+        "text": "Order online, pick it up."
+      },
+      {
+        "id": "surplace",
+        "title": "Eat in",
+        "text": "The counter, the room, the good mood."
+      },
+      {
+        "id": "terrasse",
+        "title": "Waterside terrace",
+        "text": "Almost dipping your toes in the Somme."
+      },
+      {
+        "id": "telephone",
+        "title": "Order by phone",
+        "text": "One call to +33 9 55 76 18 32."
+      }
     ]
   },
   "carte": {
@@ -160,79 +180,267 @@
     "allergens": "Allergens: the full list is available at the counter. Please tell us about any allergy when you order.",
     "checked": "Prices checked on {date}, subject to change.",
     "recipeTitle": "Our kebab recipe",
-    "recipe": "Veal and turkey marinated for 24 hours, slow-cooked for 3 hours on the spit, stacked by hand every day."
+    "recipe": "Veal and turkey marinated for 24 hours, slow-cooked for 3 hours on the spit, stacked by hand every day.",
+    "illustration": "Illustration",
+    "photoNote": "Photos marked “Illustration” are royalty-free stock images; the others are the restaurant's own."
   },
-  "tags": { "vegan": "Vegan", "vegetarian": "Vegetarian" },
+  "tags": {
+    "vegan": "Vegan",
+    "vegetarian": "Vegetarian"
+  },
   "products": {
-    "berliner-classic": { "name": "Berliner classic", "desc": "Homemade kebab, lettuce, tomato, red onion." },
-    "berliner-feta": { "name": "Berliner feta", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, feta, pomegranate." },
-    "berliner-burrata": { "name": "Berliner burrata", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, burrata." },
-    "berliner-chevre-miel": { "name": "Berliner goat cheese & honey", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, goat cheese with honey." },
-    "berliner-avocat": { "name": "Berliner avocado", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, avocado." },
-    "berliner-gemuse": { "name": "Berliner Gemüse", "desc": "Homemade kebab, white sauce, lettuce, cabbage, grilled vegetables (courgette, aubergine, carrot, pepper), feta." },
-    "berliner-chef": { "name": "Chef's Berliner", "desc": "Chicken escalope and homemade kebab, white sauce, lettuce, cabbage, with feta, burrata or goat cheese & honey." },
-    "berliner-trio": { "name": "Berliner three cheeses", "desc": "Homemade kebab, white sauce, crunchy salad, cabbage, plus feta, burrata and goat cheese & honey." },
-    "berliner-raclette": { "name": "Berliner raclette", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, melted raclette." },
-    "berliner-cheddar": { "name": "Berliner cheddar", "desc": "Homemade kebab, white sauce, red and white cabbage, cheddar." },
-    "berliner-poulet": { "name": "Berliner chicken", "desc": "Breaded chicken escalope, gribiche sauce, lettuce, lemon." },
-    "berliner-escalope-royale": { "name": "Berliner Amiens royal escalope", "desc": "Chicken escalope and turkey ham with mushrooms, tomato, onion, cheese sauce and white sauce." },
-    "berliner-vegge": { "name": "Veggie Berliner", "desc": "Falafel, white sauce, lettuce, red and white cabbage, feta, pomegranate." },
-
-    "durum-classic": { "name": "Durum classic", "desc": "Homemade kebab, white sauce, lettuce, tomato, red onion." },
-    "durum-berliner": { "name": "Durum Berliner", "desc": "Homemade kebab, white sauce, lettuce, cabbage, with feta, burrata or cheddar." },
-    "durum-chef": { "name": "Chef's durum", "desc": "Homemade kebab, white sauce, lettuce, cabbage, grilled vegetables (courgette, aubergine, carrot, pepper), feta." },
-    "durum-mixte": { "name": "Mixed durum", "desc": "Homemade kebab and chicken escalope, white sauce, red and white cabbage." },
-    "durum-avocat": { "name": "Durum avocado", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, avocado." },
-    "durum-cheddar": { "name": "Durum cheddar", "desc": "Homemade kebab, lettuce, tomato, onion, white sauce, cheddar." },
-    "durum-raclette": { "name": "Durum raclette", "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, raclette." },
-    "durum-poulet": { "name": "Durum chicken", "desc": "Breaded chicken escalope, gribiche sauce, lettuce, lemon." },
-    "durum-escalope-royale": { "name": "Durum Amiens royal escalope", "desc": "Chicken escalope and turkey ham with mushrooms, tomato, onion, cheese sauce and white sauce." },
-    "durum-vegge-feta": { "name": "Veggie feta durum", "desc": "Falafel, white sauce, lettuce, red and white cabbage, feta, pomegranate." },
-    "durum-vegan": { "name": "Vegan durum", "desc": "Lentil balls, lettuce, red and white cabbage, pomegranate seeds, lemon." },
-
-    "assiette-classic": { "name": "Classic plate", "desc": "Homemade kebab, mixed salad, homemade fries." },
-    "assiette-berliner": { "name": "Berliner plate", "desc": "Homemade kebab, mixed salad, cabbage, with feta, burrata or goat cheese & honey, homemade fries." },
-    "assiette-berliner-avocat": { "name": "Berliner avocado plate", "desc": "Homemade kebab, mixed salad, red and white cabbage, avocado, homemade fries." },
-    "assiette-chef": { "name": "Chef's plate", "desc": "Homemade kebab and breaded chicken escalope, mixed salad, cabbage, feta, burrata or goat cheese & honey, homemade fries." },
-    "assiette-gemuse": { "name": "Gemüse plate", "desc": "Homemade kebab, lettuce, cabbage, grilled vegetables (courgette, pepper, aubergine, carrot), feta, homemade fries." },
-    "assiette-trio": { "name": "Berliner three-cheese plate", "desc": "Homemade kebab, white sauce, mixed salad, cabbage, feta, burrata and goat cheese & honey, homemade fries." },
-    "assiette-poulet": { "name": "Chicken plate", "desc": "Breaded chicken escalope, mixed salad, homemade fries." },
-    "assiette-escalope-royale": { "name": "Amiens royal escalope plate", "desc": "Chicken escalope and turkey ham with mushrooms, mixed salad, cheese sauce and white sauce, homemade fries." },
-    "assiette-vegge": { "name": "Veggie plate", "desc": "Falafel, mixed salad, red and white cabbage, feta, homemade fries." },
-    "assiette-vegan": { "name": "Vegan plate", "desc": "Lentil balls, mixed salad, red and white cabbage, homemade fries." },
-
-    "burger-classic": { "name": "Classic burger", "desc": "Baker's bun, fresh patty (approx. 150 g), cheddar, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries." },
-    "burger-parisien": { "name": "Parisian burger", "desc": "Baker's bun, fresh patty (approx. 150 g), cheddar, bacon, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries." },
-    "burger-raclette": { "name": "Raclette burger", "desc": "Baker's bun, fresh patty (approx. 150 g), raclette, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries." },
-    "burger-chevre-miel": { "name": "Goat cheese & honey burger", "desc": "Baker's bun, fresh patty (approx. 150 g), goat cheese with honey, lettuce, tomato, onion, pickle. With homemade fries." },
-    "chicken-burger": { "name": "Chicken burger", "desc": "Breaded chicken, lettuce, tomato, onion, pickle, gribiche sauce. With homemade fries." },
-    "double-protein": { "name": "Double protein burger", "desc": "Beef patty and chicken fillet, lettuce, tomato, onion, pickle, barbecue sauce, melted cheddar. With homemade fries." },
-    "salade-feta": { "name": "Feta salad", "desc": "Lettuce, tomato, cucumber, red cabbage, marinated white cabbage, pomegranate seeds, feta." },
-    "salade-burrata": { "name": "Burrata salad", "desc": "The chef's burrata salad." },
-    "salade-cesar": { "name": "Caesar salad", "desc": "Lettuce, cherry tomatoes, tender chicken, olives, parmesan shavings, Caesar dressing." },
-    "salade-norvegienne": { "name": "Norwegian salad", "desc": "Mixed salad, cherry tomatoes, cucumber, smoked salmon, olives, mozzarella." },
-
-    "menu-enfant": { "name": "Kids' meal", "desc": "5 nuggets, a hamburger or a small kebab plate, a Nutella B-ready and a Capri-Sun." },
-    "frites-maison": { "name": "Homemade fries", "desc": "Cut and cooked right here." },
-    "frites-cheddar": { "name": "Cheddar fries", "desc": "Homemade fries, melted cheddar." },
-    "frites-cheddar-bacon": { "name": "Cheddar bacon fries", "desc": "Homemade fries, melted cheddar, bacon." },
-
-    "soft": { "name": "33 cl can", "desc": "Coca-Cola, Fanta, Orangina, Oasis, Tropico, Schweppes, Fuze Tea, Ice Tea, Perrier, Sprite." },
-    "ayran": { "name": "Ayran 25 cl", "desc": "The cool, lightly salted yoghurt drink." },
-    "jus": { "name": "Fruit juice 25 cl", "desc": "Orange, apricot, apple or pineapple." },
-    "diabolo": { "name": "Diabolo 33 cl", "desc": "Mint, strawberry, peach, grenadine, lemon or violet." },
-    "cristalline": { "name": "Cristalline water 50 cl", "desc": "" },
-    "san-pellegrino": { "name": "San Pellegrino 50 cl", "desc": "" },
-    "espresso": { "name": "Espresso", "desc": "" },
-    "double-espresso": { "name": "Double espresso", "desc": "" },
-    "allonge": { "name": "Long black", "desc": "" },
-    "americano": { "name": "Americano", "desc": "" },
-    "creme": { "name": "Café crème", "desc": "" },
-    "cappuccino": { "name": "Cappuccino", "desc": "" },
-
-    "baklava": { "name": "Baklava", "desc": "Flaky pastry with honey and nuts." },
-    "lokum": { "name": "Lokum", "desc": "Turkish delight, soft and fragrant." },
-    "tarte-daim": { "name": "Daim tart", "desc": "Crunchy caramel and chocolate." }
+    "berliner-classic": {
+      "name": "Berliner classic",
+      "desc": "Homemade kebab, lettuce, tomato, red onion."
+    },
+    "berliner-feta": {
+      "name": "Berliner feta",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, feta, pomegranate."
+    },
+    "berliner-burrata": {
+      "name": "Berliner burrata",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, burrata."
+    },
+    "berliner-chevre-miel": {
+      "name": "Berliner goat cheese & honey",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, goat cheese with honey."
+    },
+    "berliner-avocat": {
+      "name": "Berliner avocado",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, avocado."
+    },
+    "berliner-gemuse": {
+      "name": "Berliner Gemüse",
+      "desc": "Homemade kebab, white sauce, lettuce, cabbage, grilled vegetables (courgette, aubergine, carrot, pepper), feta."
+    },
+    "berliner-chef": {
+      "name": "Chef's Berliner",
+      "desc": "Chicken escalope and homemade kebab, white sauce, lettuce, cabbage, with feta, burrata or goat cheese & honey."
+    },
+    "berliner-trio": {
+      "name": "Berliner three cheeses",
+      "desc": "Homemade kebab, white sauce, crunchy salad, cabbage, plus feta, burrata and goat cheese & honey."
+    },
+    "berliner-raclette": {
+      "name": "Berliner raclette",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, melted raclette."
+    },
+    "berliner-cheddar": {
+      "name": "Berliner cheddar",
+      "desc": "Homemade kebab, white sauce, red and white cabbage, cheddar."
+    },
+    "berliner-poulet": {
+      "name": "Berliner chicken",
+      "desc": "Breaded chicken escalope, gribiche sauce, lettuce, lemon."
+    },
+    "berliner-escalope-royale": {
+      "name": "Berliner Amiens royal escalope",
+      "desc": "Chicken escalope and turkey ham with mushrooms, tomato, onion, cheese sauce and white sauce."
+    },
+    "berliner-vegge": {
+      "name": "Veggie Berliner",
+      "desc": "Falafel, white sauce, lettuce, red and white cabbage, feta, pomegranate."
+    },
+    "durum-classic": {
+      "name": "Durum classic",
+      "desc": "Homemade kebab, white sauce, lettuce, tomato, red onion."
+    },
+    "durum-berliner": {
+      "name": "Durum Berliner",
+      "desc": "Homemade kebab, white sauce, lettuce, cabbage, with feta, burrata or cheddar."
+    },
+    "durum-chef": {
+      "name": "Chef's durum",
+      "desc": "Homemade kebab, white sauce, lettuce, cabbage, grilled vegetables (courgette, aubergine, carrot, pepper), feta."
+    },
+    "durum-mixte": {
+      "name": "Mixed durum",
+      "desc": "Homemade kebab and chicken escalope, white sauce, red and white cabbage."
+    },
+    "durum-avocat": {
+      "name": "Durum avocado",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, avocado."
+    },
+    "durum-cheddar": {
+      "name": "Durum cheddar",
+      "desc": "Homemade kebab, lettuce, tomato, onion, white sauce, cheddar."
+    },
+    "durum-raclette": {
+      "name": "Durum raclette",
+      "desc": "Homemade kebab, white sauce, lettuce, red and white cabbage, raclette."
+    },
+    "durum-poulet": {
+      "name": "Durum chicken",
+      "desc": "Breaded chicken escalope, gribiche sauce, lettuce, lemon."
+    },
+    "durum-escalope-royale": {
+      "name": "Durum Amiens royal escalope",
+      "desc": "Chicken escalope and turkey ham with mushrooms, tomato, onion, cheese sauce and white sauce."
+    },
+    "durum-vegge-feta": {
+      "name": "Veggie feta durum",
+      "desc": "Falafel, white sauce, lettuce, red and white cabbage, feta, pomegranate."
+    },
+    "durum-vegan": {
+      "name": "Vegan durum",
+      "desc": "Lentil balls, lettuce, red and white cabbage, pomegranate seeds, lemon."
+    },
+    "assiette-classic": {
+      "name": "Classic plate",
+      "desc": "Homemade kebab, mixed salad, homemade fries."
+    },
+    "assiette-berliner": {
+      "name": "Berliner plate",
+      "desc": "Homemade kebab, mixed salad, cabbage, with feta, burrata or goat cheese & honey, homemade fries."
+    },
+    "assiette-berliner-avocat": {
+      "name": "Berliner avocado plate",
+      "desc": "Homemade kebab, mixed salad, red and white cabbage, avocado, homemade fries."
+    },
+    "assiette-chef": {
+      "name": "Chef's plate",
+      "desc": "Homemade kebab and breaded chicken escalope, mixed salad, cabbage, feta, burrata or goat cheese & honey, homemade fries."
+    },
+    "assiette-gemuse": {
+      "name": "Gemüse plate",
+      "desc": "Homemade kebab, lettuce, cabbage, grilled vegetables (courgette, pepper, aubergine, carrot), feta, homemade fries."
+    },
+    "assiette-trio": {
+      "name": "Berliner three-cheese plate",
+      "desc": "Homemade kebab, white sauce, mixed salad, cabbage, feta, burrata and goat cheese & honey, homemade fries."
+    },
+    "assiette-poulet": {
+      "name": "Chicken plate",
+      "desc": "Breaded chicken escalope, mixed salad, homemade fries."
+    },
+    "assiette-escalope-royale": {
+      "name": "Amiens royal escalope plate",
+      "desc": "Chicken escalope and turkey ham with mushrooms, mixed salad, cheese sauce and white sauce, homemade fries."
+    },
+    "assiette-vegge": {
+      "name": "Veggie plate",
+      "desc": "Falafel, mixed salad, red and white cabbage, feta, homemade fries."
+    },
+    "assiette-vegan": {
+      "name": "Vegan plate",
+      "desc": "Lentil balls, mixed salad, red and white cabbage, homemade fries."
+    },
+    "burger-classic": {
+      "name": "Classic burger",
+      "desc": "Baker's bun, fresh patty (approx. 150 g), cheddar, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries."
+    },
+    "burger-parisien": {
+      "name": "Parisian burger",
+      "desc": "Baker's bun, fresh patty (approx. 150 g), cheddar, bacon, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries."
+    },
+    "burger-raclette": {
+      "name": "Raclette burger",
+      "desc": "Baker's bun, fresh patty (approx. 150 g), raclette, lettuce, tomato, onion, pickle, barbecue sauce. With homemade fries."
+    },
+    "burger-chevre-miel": {
+      "name": "Goat cheese & honey burger",
+      "desc": "Baker's bun, fresh patty (approx. 150 g), goat cheese with honey, lettuce, tomato, onion, pickle. With homemade fries."
+    },
+    "chicken-burger": {
+      "name": "Chicken burger",
+      "desc": "Breaded chicken, lettuce, tomato, onion, pickle, gribiche sauce. With homemade fries."
+    },
+    "double-protein": {
+      "name": "Double protein burger",
+      "desc": "Beef patty and chicken fillet, lettuce, tomato, onion, pickle, barbecue sauce, melted cheddar. With homemade fries."
+    },
+    "salade-feta": {
+      "name": "Feta salad",
+      "desc": "Lettuce, tomato, cucumber, red cabbage, marinated white cabbage, pomegranate seeds, feta."
+    },
+    "salade-burrata": {
+      "name": "Burrata salad",
+      "desc": "The chef's burrata salad."
+    },
+    "salade-cesar": {
+      "name": "Caesar salad",
+      "desc": "Lettuce, cherry tomatoes, tender chicken, olives, parmesan shavings, Caesar dressing."
+    },
+    "salade-norvegienne": {
+      "name": "Norwegian salad",
+      "desc": "Mixed salad, cherry tomatoes, cucumber, smoked salmon, olives, mozzarella."
+    },
+    "menu-enfant": {
+      "name": "Kids' meal",
+      "desc": "5 nuggets, a hamburger or a small kebab plate, a Nutella B-ready and a Capri-Sun."
+    },
+    "frites-maison": {
+      "name": "Homemade fries",
+      "desc": "Cut and cooked right here."
+    },
+    "frites-cheddar": {
+      "name": "Cheddar fries",
+      "desc": "Homemade fries, melted cheddar."
+    },
+    "frites-cheddar-bacon": {
+      "name": "Cheddar bacon fries",
+      "desc": "Homemade fries, melted cheddar, bacon."
+    },
+    "soft": {
+      "name": "33 cl can",
+      "desc": "Coca-Cola, Fanta, Orangina, Oasis, Tropico, Schweppes, Fuze Tea, Ice Tea, Perrier, Sprite."
+    },
+    "ayran": {
+      "name": "Ayran 25 cl",
+      "desc": "The cool, lightly salted yoghurt drink."
+    },
+    "jus": {
+      "name": "Fruit juice 25 cl",
+      "desc": "Orange, apricot, apple or pineapple."
+    },
+    "diabolo": {
+      "name": "Diabolo 33 cl",
+      "desc": "Mint, strawberry, peach, grenadine, lemon or violet."
+    },
+    "cristalline": {
+      "name": "Cristalline water 50 cl",
+      "desc": ""
+    },
+    "san-pellegrino": {
+      "name": "San Pellegrino 50 cl",
+      "desc": ""
+    },
+    "espresso": {
+      "name": "Espresso",
+      "desc": ""
+    },
+    "double-espresso": {
+      "name": "Double espresso",
+      "desc": ""
+    },
+    "allonge": {
+      "name": "Long black",
+      "desc": ""
+    },
+    "americano": {
+      "name": "Americano",
+      "desc": ""
+    },
+    "creme": {
+      "name": "Café crème",
+      "desc": ""
+    },
+    "cappuccino": {
+      "name": "Cappuccino",
+      "desc": ""
+    },
+    "baklava": {
+      "name": "Baklava",
+      "desc": "Flaky pastry with honey and nuts."
+    },
+    "lokum": {
+      "name": "Lokum",
+      "desc": "Turkish delight, soft and fragrant."
+    },
+    "tarte-daim": {
+      "name": "Daim tart",
+      "desc": "Crunchy caramel and chocolate."
+    }
   },
   "blocks": {
     "doner": {
@@ -258,7 +466,14 @@
     "eyebrow": "Your reviews",
     "title": "4.9 out of 5. Thank you.",
     "intro": "Over 500 reviews on Google. What comes up the most:",
-    "themes": ["Fresh ingredients", "The feta", "The burrata", "Goat cheese & honey", "The white sauce", "The waterside terrace"],
+    "themes": [
+      "Fresh ingredients",
+      "The feta",
+      "The burrata",
+      "Goat cheese & honey",
+      "The white sauce",
+      "The waterside terrace"
+    ],
     "cta": "Read the reviews on Google"
   },
   "order": {
@@ -281,7 +496,10 @@
     "drink": "Meal drink",
     "sauce": "Sauce",
     "modeTitle": "Eat in or takeaway",
-    "modes": { "emporter": "Takeaway", "surplace": "Eat in" },
+    "modes": {
+      "emporter": "Takeaway",
+      "surplace": "Eat in"
+    },
     "modeHint": {
       "emporter": "Your order will be waiting at the counter at the time you choose.",
       "surplace": "We'll have everything ready when you arrive: take a seat, we'll bring it over."
@@ -351,7 +569,15 @@
     "accessText": "In the Saint-Leu quarter, on the banks of the Somme, a 5-minute walk from the cathedral. The quay is pedestrian: come on foot, by bike, or use one of the city-centre car parks.",
     "route": "Directions",
     "mapTitle": "Map to Berlin Durum Kebab, 41 quai Belu, Amiens",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
     "closed": "Closed",
     "services": "Eat in · takeaway · terrace"
   },
@@ -359,12 +585,30 @@
     "eyebrow": "FAQ",
     "title": "Before you come.",
     "items": [
-      { "q": "When are you open?", "a": "Every day from 11:30 am to 11 pm, and until midnight on Fridays and Saturdays. On Wednesdays we take a break from 3:30 to 5:30 pm." },
-      { "q": "How do I order takeaway?", "a": "Add your dishes from the menu, choose a pick-up time and send it: we start cooking. You can also call +33 9 55 76 18 32." },
-      { "q": "How long does an order take?", "a": "Allow at least 20 minutes: that's the earliest slot offered in the form. At peak times, a quick call lets you check the wait." },
-      { "q": "How do I pay?", "a": "At the counter, when you pick up or at the end of your meal." },
-      { "q": "Do you have vegetarian dishes?", "a": "Yes: falafel Berliner and durum, vegan durum and plate with lentil balls, feta salad, homemade fries. It's all under the \"Vegetarian\" tab." },
-      { "q": "Where can I park?", "a": "Quai Belu is pedestrian. City-centre car parks are a few minutes' walk away; the cathedral right next door makes it easy to find us." }
+      {
+        "q": "When are you open?",
+        "a": "Every day from 11:30 am to 11 pm, and until midnight on Fridays and Saturdays. On Wednesdays we take a break from 3:30 to 5:30 pm."
+      },
+      {
+        "q": "How do I order takeaway?",
+        "a": "Add your dishes from the menu, choose a pick-up time and send it: we start cooking. You can also call +33 9 55 76 18 32."
+      },
+      {
+        "q": "How long does an order take?",
+        "a": "Allow at least 20 minutes: that's the earliest slot offered in the form. At peak times, a quick call lets you check the wait."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "At the counter, when you pick up or at the end of your meal."
+      },
+      {
+        "q": "Do you have vegetarian dishes?",
+        "a": "Yes: falafel Berliner and durum, vegan durum and plate with lentil balls, feta salad, homemade fries. It's all under the \"Vegetarian\" tab."
+      },
+      {
+        "q": "Where can I park?",
+        "a": "Quai Belu is pedestrian. City-centre car parks are a few minutes' walk away; the cathedral right next door makes it easy to find us."
+      }
     ]
   },
   "reviewsLink": "Google reviews",
@@ -390,10 +634,22 @@
       "h1": "Kebab in Amiens: the homemade kebab of quai Belu.",
       "intro": "Berlin Durum Kebab is at 41 quai Belu, in the Saint-Leu quarter, on the River Somme. Open every day from 11:30 am to 11 pm (midnight at weekends), to eat in, on the terrace or to take away.",
       "sections": [
-        { "h": "100% homemade kebab", "p": "The meat, veal and turkey, marinates for 24 hours, then slow-cooks for 3 hours on a spit stacked by hand every day. The fries are cut here, and so are the six sauces: white, gribiche, light garlic, pea, tahini, cocktail." },
-        { "h": "What's on the menu", "p": "The Berliner (kebab in pide bread, Berlin-style) from €9.99, durum rolled in a flatbread, plates with homemade fries, burgers with a fresh butcher's patty, salads, and vegetarian and vegan options." },
-        { "h": "4.9 out of 5 on Google", "p": "More than 500 customers have left a rating. What they remember: fresh ingredients, the feta, the burrata, the goat cheese with honey, the white sauce and the waterside terrace." },
-        { "h": "Getting to quai Belu", "p": "A 5-minute walk from Amiens cathedral, on the pedestrian quay of Saint-Leu. To save time, order online and choose your pick-up time." }
+        {
+          "h": "100% homemade kebab",
+          "p": "The meat, veal and turkey, marinates for 24 hours, then slow-cooks for 3 hours on a spit stacked by hand every day. The fries are cut here, and so are the six sauces: white, gribiche, light garlic, pea, tahini, cocktail."
+        },
+        {
+          "h": "What's on the menu",
+          "p": "The Berliner (kebab in pide bread, Berlin-style) from €9.99, durum rolled in a flatbread, plates with homemade fries, burgers with a fresh butcher's patty, salads, and vegetarian and vegan options."
+        },
+        {
+          "h": "4.9 out of 5 on Google",
+          "p": "More than 500 customers have left a rating. What they remember: fresh ingredients, the feta, the burrata, the goat cheese with honey, the white sauce and the waterside terrace."
+        },
+        {
+          "h": "Getting to quai Belu",
+          "p": "A 5-minute walk from Amiens cathedral, on the pedestrian quay of Saint-Leu. To save time, order online and choose your pick-up time."
+        }
       ],
       "cta": "See the menu"
     },
@@ -405,10 +661,22 @@
       "h1": "Berlin döner, the quai Belu way.",
       "intro": "Döner the way Berlin eats it: generous, crunchy, packed with veg. At Berlin Durum we call it the Berliner, and you'll find it at 41 quai Belu, Amiens.",
       "sections": [
-        { "h": "What makes it Berlin-style?", "p": "Soft golden pide bread, kebab sliced off the spit, a mountain of fresh veg (lettuce, red and white cabbage), feta, and often grilled vegetables: the Gemüse style that became the signature of Berlin's kebab shops." },
-        { "h": "The Berliner Gemüse", "p": "Homemade kebab, white sauce, cabbage, grilled courgette, aubergine, carrot and pepper, feta. Our way of saying hello to Kreuzberg. €13.99, or as a meal with homemade fries and a can." },
-        { "h": "As a durum?", "p": "The same filling, rolled in a thin flatbread. The classic durum starts at €9.99, the chef's durum with grilled vegetables is €13.99." },
-        { "h": "Meat-free too", "p": "Falafel Berliner and durum, vegan durum and plate with lentil balls: the Berlin style works beautifully without kebab." }
+        {
+          "h": "What makes it Berlin-style?",
+          "p": "Soft golden pide bread, kebab sliced off the spit, a mountain of fresh veg (lettuce, red and white cabbage), feta, and often grilled vegetables: the Gemüse style that became the signature of Berlin's kebab shops."
+        },
+        {
+          "h": "The Berliner Gemüse",
+          "p": "Homemade kebab, white sauce, cabbage, grilled courgette, aubergine, carrot and pepper, feta. Our way of saying hello to Kreuzberg. €13.99, or as a meal with homemade fries and a can."
+        },
+        {
+          "h": "As a durum?",
+          "p": "The same filling, rolled in a thin flatbread. The classic durum starts at €9.99, the chef's durum with grilled vegetables is €13.99."
+        },
+        {
+          "h": "Meat-free too",
+          "p": "Falafel Berliner and durum, vegan durum and plate with lentil balls: the Berlin style works beautifully without kebab."
+        }
       ],
       "cta": "Order a Berliner"
     },
@@ -422,15 +690,18 @@
       "data": "Personal data",
       "dataText": "The information sent through the order form (name, phone, email, order) is used only to prepare your order and to contact you about it. It is never sold or used for advertising. To access or delete it, contact the restaurant on +33 9 55 76 18 32.",
       "photos": "Photos and illustrations",
-      "photosText": "Photos: Berlin Durum Kebab. Illustrations and logo drawn for this website.",
+      "photosText": "Photos: Berlin Durum Kebab (Google listing); illustrative photos from Unsplash; quai Belu: Pierre Poschadel, CC BY-SA 4.0, via Wikimedia Commons. Logo and illustrations drawn for this website.",
       "toConfirm": "To be completed"
     }
   },
   "alt": {
-    "hero": "A Berliner filled with homemade kebab, crunchy veg and feta",
+    "hero": "Berlin Durum’s dishes: Berliners, durum, plates and homemade fries",
     "terrasse": "Berlin Durum's terrace on the River Somme, quai Belu",
     "facade": "The front of Berlin Durum Kebab, 41 quai Belu in Amiens",
     "comptoir": "The homemade kebab spit behind the counter",
-    "sauces": "Berlin Durum's homemade sauces"
+    "sauces": "Berlin Durum's homemade sauces",
+    "quai-belu": "Quai Belu in Amiens, on the River Somme",
+    "berliner-feta": "Berlin Durum’s feta Berliner with homemade fries",
+    "salade-burrata": "Berlin Durum’s burrata salad"
   }
 }

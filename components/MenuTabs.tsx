@@ -41,6 +41,7 @@ function Dish({ id }: { id: ItemId }) {
         sizes={photo ? "(min-width: 640px) 160px, 100vw" : "72px"}
         className={photo ? "card aspect-[4/3] w-full shrink-0 sm:aspect-square sm:w-36" : "h-[4.5rem] w-[4.5rem] shrink-0 rounded-[4px]"}
         illusClassName="h-12 w-12"
+        stockLabel={d.carte.illustration}
       />
       <div className="flex min-w-0 flex-1 flex-col">
         <div className="flex items-baseline justify-between gap-4">
@@ -232,6 +233,7 @@ export function MenuTabs({ initial = "doner" }: { initial?: CategoryId }) {
         </AnimatePresence>
       </div>
       <p className="mt-8 text-[0.9375rem] text-muted">{d.carte.allergens}</p>
+      <p className="mt-2 text-[0.875rem] text-muted">{d.carte.photoNote}</p>
     </div>
   );
 }

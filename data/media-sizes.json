@@ -1,1 +1,142 @@
-{}
+{
+ "/media/hero/hero.jpg": [
+  1600,
+  1066
+ ],
+ "/media/plats/assiette-a.jpg": [
+  576,
+  799
+ ],
+ "/media/plats/assiette-b.jpg": [
+  608,
+  746
+ ],
+ "/media/plats/berliner-feta.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/durum-classic.jpg": [
+  1600,
+  1066
+ ],
+ "/media/plats/salade-burrata.jpg": [
+  1024,
+  661
+ ],
+ "/media/plats/salade-cesar.jpg": [
+  1016,
+  1032
+ ],
+ "/media/plats/stock-ayran.jpg": [
+  1400,
+  906
+ ],
+ "/media/plats/stock-baklava.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-berliner.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-burger-a.jpg": [
+  1400,
+  1163
+ ],
+ "/media/plats/stock-burger-b.jpg": [
+  1400,
+  1400
+ ],
+ "/media/plats/stock-burger-c.jpg": [
+  1400,
+  935
+ ],
+ "/media/plats/stock-canette.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/stock-cappuccino.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-chicken-burger.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-durum-a.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-durum-b.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-durum-c.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-eau.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-espresso.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/stock-falafel-a.jpg": [
+  1400,
+  1145
+ ],
+ "/media/plats/stock-falafel-b.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-falafel-c.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-frites-b.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-frites-bacon.jpg": [
+  1400,
+  1400
+ ],
+ "/media/plats/stock-frites-cheddar.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-frites.jpg": [
+  1400,
+  1120
+ ],
+ "/media/plats/stock-jus.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/stock-lokum.jpg": [
+  1400,
+  934
+ ],
+ "/media/plats/stock-nuggets.jpg": [
+  1400,
+  1050
+ ],
+ "/media/plats/stock-salade-bowl.jpg": [
+  1400,
+  933
+ ],
+ "/media/plats/stock-salade-feta.jpg": [
+  1400,
+  1045
+ ],
+ "/media/plats/stock-tarte-chocolat.jpg": [
+  1400,
+  955
+ ],
+ "/media/terrasse/quai-belu.jpg": [
+  1600,
+  1200
+ ]
+}

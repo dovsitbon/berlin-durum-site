@@ -48,9 +48,9 @@ function SectionHead({ eyebrow, title, intro, center = false }: { eyebrow: strin
 
 type Block = { id: string; key: "doner" | "terrace" | "fresh"; paths: string[]; illus: IllusName; tint: Tint; altKey: string };
 const BLOCKS: Block[] = [
-  { id: "doner-berlinois", key: "doner", paths: ["/media/hero/comptoir.jpg", "/media/galerie/comptoir.jpg"], illus: "spit", tint: "ink", altKey: "comptoir" },
-  { id: "terrasse", key: "terrace", paths: ["/media/terrasse/terrasse.jpg"], illus: "terrace", tint: "mustard", altKey: "terrasse" },
-  { id: "frais", key: "fresh", paths: ["/media/plats/sauces.jpg", "/media/galerie/sauces.jpg"], illus: "salad", tint: "herb", altKey: "sauces" },
+  { id: "doner-berlinois", key: "doner", paths: ["/media/hero/comptoir.jpg", "/media/plats/berliner-feta.jpg"], illus: "spit", tint: "ink", altKey: "berliner-feta" },
+  { id: "terrasse", key: "terrace", paths: ["/media/terrasse/terrasse.jpg", "/media/terrasse/quai-belu.jpg"], illus: "terrace", tint: "mustard", altKey: "quai-belu" },
+  { id: "frais", key: "fresh", paths: ["/media/plats/sauces.jpg", "/media/plats/salade-burrata.jpg"], illus: "salad", tint: "herb", altKey: "salade-burrata" },
 ];
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
@@ -165,7 +165,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             );
           return (
             <section key={b.id} id={b.id} className="grid scroll-mt-16 border-b-2 border-ink md:grid-cols-2">
-              <Photo paths={b.paths} alt={altOf(d, b.paths[0]) || d.alt[b.altKey as keyof Dict["alt"]]} illus={b.illus} tint={b.tint} sizes="(min-width: 768px) 50vw, 100vw" className={`aspect-[4/3] md:aspect-auto md:min-h-[34rem] ${i % 2 ? "md:order-2 md:border-s-2 md:border-ink" : "md:border-e-2 md:border-ink"}`} illusClassName="h-2/5 w-2/5 max-h-56 max-w-56" />
+              <Photo paths={b.paths} alt={altOf(d, b.paths[0]) || d.alt[b.altKey as keyof Dict["alt"]]} illus={b.illus} tint={b.tint} sizes="(min-width: 768px) 50vw, 100vw" className={`aspect-[4/3] md:aspect-auto md:min-h-[34rem] ${i % 2 ? "md:order-2 md:border-s-2 md:border-ink" : "md:border-e-2 md:border-ink"}`} illusClassName="h-2/5 w-2/5 max-h-56 max-w-56" stockLabel={d.carte.illustration} />
               <Reveal className="flex flex-col justify-center px-5 py-12 md:px-12 lg:px-20">
                 <p className="sign self-start">{t.eyebrow}</p>
                 <h2 className="display mt-5 text-[2.75rem] md:text-[3.75rem]">{t.title}</h2>

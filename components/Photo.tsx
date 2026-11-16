@@ -12,6 +12,9 @@ const TINTS = {
 } as const;
 export type Tint = keyof typeof TINTS;
 
+/** Photo libre de droits (Unsplash, Wikimedia) : jamais présentée comme une photo du restaurant. */
+export const isStock = (src: string) => src.includes("/stock-") || src.includes("/terrasse/quai-belu");
+
 /**
  * Emplacement photo (plat, terrasse, façade…). Tant que la photo n'existe pas dans public/media,
  * une illustration au trait sur fond de couleur la remplace, avec une petite mention discrète si « note » est donné.
@@ -28,6 +31,7 @@ export function Photo({
   priority = false,
   illusClassName = "h-1/2 w-1/2 max-h-40 max-w-40",
   note,
+  stockLabel,
 }: {
   paths: readonly string[];
   alt: string;
@@ -39,14 +43,19 @@ export function Photo({
   priority?: boolean;
   illusClassName?: string;
   note?: string;
+  /** Texte du petit badge posé sur les photos libres de droits (fichiers « stock-* », photos du quartier) */
+  stockLabel?: string;
 }) {
   const p = firstImg(paths);
-  if (p)
+  if (p) {
+    const stock = isStock(p.src);
     return (
       <div className={`zoom bg-cream-deep ${className}`}>
-        <Image src={p.src} alt={alt} width={p.width} height={p.height} sizes={sizes} quality={70} priority={priority} fetchPriority={priority ? "high" : undefined} className={`h-full w-full object-cover ${imgClassName}`} />
+        <Image src={p.src} alt={stock && stockLabel && alt ? `${alt} (${stockLabel.toLowerCase()})` : alt} width={p.width} height={p.height} sizes={sizes} quality={70} priority={priority} fetchPriority={priority ? "high" : undefined} className={`h-full w-full object-cover ${imgClassName}`} />
+        {stock && stockLabel && <span className="pointer-events-none absolute end-1.5 top-1.5 bg-ink/75 px-1.5 py-0.5 text-[0.625rem] leading-tight font-semibold text-cream">{stockLabel}</span>}
       </div>
     );
+  }
   return (
     <div className={`relative flex items-center justify-center ${TINTS[tint]} ${className}`} data-photo-slot={paths[0]} role={alt ? "img" : undefined} aria-label={alt || undefined}>
       <Illus name={illus} className={illusClassName} strokeWidth={3.2} />

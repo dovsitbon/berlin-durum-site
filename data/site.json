@@ -12,7 +12,7 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Berlin+%26+Durum+kebab+41+quai+Belu+80000+Amiens",
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=49.8962153,2.305334",
   "mapsEmbed": "https://www.google.com/maps?q=Berlin+%26+Durum+kebab,+41+quai+Belu,+80000+Amiens&z=16&output=embed",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/berlin_durum/",
   "rating": { "value": 4.9, "count": 511, "source": "Google", "checked": "2026-11-10" },
   "order": { "minutesAhead": 20, "stepMinutes": 15, "daysAhead": 3, "maxPerLine": 20 },
   "payment": { "enabled": false, "provider": "stripe" },

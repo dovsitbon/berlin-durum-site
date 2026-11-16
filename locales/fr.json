@@ -4,8 +4,12 @@
     "description": "Döner berlinois, durum et assiettes au 41 quai Belu, Saint-Leu. Kebab maison mariné 24 h, frites maison, sauces maison, terrasse au bord de la Somme. 4,9/5 sur Google. Commande à emporter.",
     "ogAlt": "Berlin Durum Kebab, döner berlinois au bord de la Somme à Amiens"
   },
-  "intro": { "skip": "Passer" },
-  "announce": { "close": "Fermer l'annonce" },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer l'annonce"
+  },
   "nav": {
     "skip": "Aller au contenu",
     "menu": "Menu du site",
@@ -55,10 +59,26 @@
   "services": {
     "title": "Nos services",
     "items": [
-      { "id": "emporter", "title": "À emporter", "text": "Commandez en ligne, passez prendre." },
-      { "id": "surplace", "title": "Sur place", "text": "Le comptoir, la salle, la bonne humeur." },
-      { "id": "terrasse", "title": "Terrasse au bord de l'eau", "text": "Les pieds presque dans la Somme." },
-      { "id": "telephone", "title": "Commande par téléphone", "text": "Un appel au 09 55 76 18 32." }
+      {
+        "id": "emporter",
+        "title": "À emporter",
+        "text": "Commandez en ligne, passez prendre."
+      },
+      {
+        "id": "surplace",
+        "title": "Sur place",
+        "text": "Le comptoir, la salle, la bonne humeur."
+      },
+      {
+        "id": "terrasse",
+        "title": "Terrasse au bord de l'eau",
+        "text": "Les pieds presque dans la Somme."
+      },
+      {
+        "id": "telephone",
+        "title": "Commande par téléphone",
+        "text": "Un appel au 09 55 76 18 32."
+      }
     ]
   },
   "carte": {
@@ -160,79 +180,267 @@
     "allergens": "Allergènes : la liste est disponible au comptoir. Prévenez-nous de toute allergie au moment de commander.",
     "checked": "Prix relevés le {date}, susceptibles d'évoluer.",
     "recipeTitle": "Notre recette du kebab",
-    "recipe": "Veau et dinde marinés 24 heures, confits 3 heures sur la broche, montée à la main chaque jour."
+    "recipe": "Veau et dinde marinés 24 heures, confits 3 heures sur la broche, montée à la main chaque jour.",
+    "illustration": "Illustration",
+    "photoNote": "Les photos marquées « Illustration » sont des photos d'ambiance libres de droits ; les autres sont celles du restaurant."
   },
-  "tags": { "vegan": "Végan", "vegetarian": "Végétarien" },
+  "tags": {
+    "vegan": "Végan",
+    "vegetarian": "Végétarien"
+  },
   "products": {
-    "berliner-classic": { "name": "Berliner classic", "desc": "Kebab maison, salade, tomate, oignon rouge." },
-    "berliner-feta": { "name": "Berliner fêta", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade." },
-    "berliner-burrata": { "name": "Berliner burrata", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, burrata." },
-    "berliner-chevre-miel": { "name": "Berliner chèvre miel", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, chèvre au miel." },
-    "berliner-avocat": { "name": "Berliner avocat", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, avocat." },
-    "berliner-gemuse": { "name": "Berliner Gemüse", "desc": "Kebab maison, sauce blanche, salade, choux, légumes grillés (courgette, aubergine, carotte, poivron), fêta." },
-    "berliner-chef": { "name": "Berliner du chef", "desc": "Escalope de poulet et kebab maison, sauce blanche, salade, choux, fêta, burrata ou chèvre miel au choix." },
-    "berliner-trio": { "name": "Berliner trio de fromages", "desc": "Kebab maison, sauce blanche, salade croquante, choux, et le trio fêta, burrata, chèvre miel." },
-    "berliner-raclette": { "name": "Berliner raclette", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, raclette fondue." },
-    "berliner-cheddar": { "name": "Berliner cheddar", "desc": "Kebab maison, sauce blanche, chou rouge, chou blanc, cheddar." },
-    "berliner-poulet": { "name": "Berliner poulet", "desc": "Escalope de poulet milanaise, sauce gribiche, salade, citron." },
-    "berliner-escalope-royale": { "name": "Berliner escalope royale d'Amiens", "desc": "Escalope de poulet et jambon de dinde aux champignons, tomates, oignons, sauce fromagère et sauce blanche." },
-    "berliner-vegge": { "name": "Berliner végé", "desc": "Falafels, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade." },
-
-    "durum-classic": { "name": "Durum classic", "desc": "Kebab maison, sauce blanche, salade, tomate, oignon rouge." },
-    "durum-berliner": { "name": "Durum Berliner", "desc": "Kebab maison, sauce blanche, salade, choux, fêta, burrata ou cheddar au choix." },
-    "durum-chef": { "name": "Durum du chef", "desc": "Kebab maison, sauce blanche, salade, choux, légumes grillés (courgette, aubergine, carotte, poivron), fêta." },
-    "durum-mixte": { "name": "Durum mixte", "desc": "Kebab maison et escalope de poulet, sauce blanche, chou rouge, chou blanc." },
-    "durum-avocat": { "name": "Durum avocat", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, avocat." },
-    "durum-cheddar": { "name": "Durum cheddar", "desc": "Kebab maison, salade, tomate, oignon, sauce blanche, cheddar." },
-    "durum-raclette": { "name": "Durum raclette", "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, raclette." },
-    "durum-poulet": { "name": "Durum poulet", "desc": "Escalope de poulet milanaise, sauce gribiche, salade, citron." },
-    "durum-escalope-royale": { "name": "Durum escalope royale d'Amiens", "desc": "Escalope de poulet et jambon de dinde aux champignons, tomates, oignons, sauce fromagère et sauce blanche." },
-    "durum-vegge-feta": { "name": "Durum végé fêta", "desc": "Falafels, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade." },
-    "durum-vegan": { "name": "Durum végan", "desc": "Boulettes de lentilles, salade, chou rouge, chou blanc, graines de grenade, citron." },
-
-    "assiette-classic": { "name": "Assiette classic", "desc": "Kebab maison, salade composée, frites maison." },
-    "assiette-berliner": { "name": "Assiette Berliner", "desc": "Kebab maison, salade composée, choux, fêta, burrata ou chèvre miel au choix, frites maison." },
-    "assiette-berliner-avocat": { "name": "Assiette Berliner avocat", "desc": "Kebab maison, salade composée, chou rouge, chou blanc, avocat, frites maison." },
-    "assiette-chef": { "name": "Assiette du chef", "desc": "Kebab maison et escalope de poulet milanaise, salade composée, choux, fêta, burrata ou chèvre miel, frites maison." },
-    "assiette-gemuse": { "name": "Assiette Gemüse", "desc": "Kebab maison, salade, choux, légumes grillés (courgette, poivron, aubergine, carotte), fêta, frites maison." },
-    "assiette-trio": { "name": "Assiette Berliner trio de fromages", "desc": "Kebab maison, sauce blanche, salade composée, choux, fêta, burrata et chèvre miel, frites maison." },
-    "assiette-poulet": { "name": "Assiette poulet", "desc": "Escalope de poulet milanaise, salade composée, frites maison." },
-    "assiette-escalope-royale": { "name": "Assiette escalope royale d'Amiens", "desc": "Escalope de poulet et jambon de dinde aux champignons, salade composée, sauce fromagère et sauce blanche, frites maison." },
-    "assiette-vegge": { "name": "Assiette végé", "desc": "Falafels, salade composée, chou rouge, chou blanc, fêta, frites maison." },
-    "assiette-vegan": { "name": "Assiette végan", "desc": "Boulettes de lentilles, salade composée, chou rouge, chou blanc, frites maison." },
-
-    "burger-classic": { "name": "Burger classic", "desc": "Pain du boulanger, steak frais (env. 150 g), cheddar, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison." },
-    "burger-parisien": { "name": "Burger parisien", "desc": "Pain du boulanger, steak frais (env. 150 g), cheddar, bacon, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison." },
-    "burger-raclette": { "name": "Burger raclette", "desc": "Pain du boulanger, steak frais (env. 150 g), raclette, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison." },
-    "burger-chevre-miel": { "name": "Burger chèvre miel", "desc": "Pain du boulanger, steak frais (env. 150 g), chèvre miel, salade, tomate, oignon, cornichon. Avec frites maison." },
-    "chicken-burger": { "name": "Chicken burger", "desc": "Poulet pané, salade, tomate, oignon, cornichon, sauce gribiche. Avec frites maison." },
-    "double-protein": { "name": "Double protein burger", "desc": "Steak de bœuf et filet de poulet, salade, tomate, oignon, cornichon, sauce barbecue, cheddar fondu. Avec frites maison." },
-    "salade-feta": { "name": "Salade fêta", "desc": "Salade, tomate, concombre, chou rouge, chou blanc mariné, graines de grenade, fêta." },
-    "salade-burrata": { "name": "Salade burrata", "desc": "La salade burrata du chef." },
-    "salade-cesar": { "name": "Salade César", "desc": "Salade, tomates cerises, poulet tendre, olives, copeaux de parmesan, sauce César." },
-    "salade-norvegienne": { "name": "Salade norvégienne", "desc": "Salade composée, tomates cerises, concombre, saumon fumé, olives, mozzarella." },
-
-    "menu-enfant": { "name": "Menu enfant", "desc": "5 nuggets, hamburger ou petite assiette kebab, un Nutella B-ready et un Capri-Sun." },
-    "frites-maison": { "name": "Frites maison", "desc": "Coupées et cuites ici." },
-    "frites-cheddar": { "name": "Frites cheddar", "desc": "Frites maison, cheddar fondu." },
-    "frites-cheddar-bacon": { "name": "Frites cheddar bacon", "desc": "Frites maison, cheddar fondu, bacon." },
-
-    "soft": { "name": "Canette 33 cl", "desc": "Coca-Cola, Fanta, Orangina, Oasis, Tropico, Schweppes, Fuze Tea, Ice Tea, Perrier, Sprite." },
-    "ayran": { "name": "Ayran 25 cl", "desc": "La boisson au yaourt, fraîche et légèrement salée." },
-    "jus": { "name": "Jus de fruits 25 cl", "desc": "Orange, abricot, pomme ou ananas." },
-    "diabolo": { "name": "Diabolo 33 cl", "desc": "Menthe, fraise, pêche, grenadine, citron ou violette." },
-    "cristalline": { "name": "Eau Cristalline 50 cl", "desc": "" },
-    "san-pellegrino": { "name": "San Pellegrino 50 cl", "desc": "" },
-    "espresso": { "name": "Café expresso", "desc": "" },
-    "double-espresso": { "name": "Double expresso", "desc": "" },
-    "allonge": { "name": "Café allongé", "desc": "" },
-    "americano": { "name": "Café americano", "desc": "" },
-    "creme": { "name": "Café crème", "desc": "" },
-    "cappuccino": { "name": "Cappuccino", "desc": "" },
-
-    "baklava": { "name": "Baklava", "desc": "Feuilleté au miel et aux fruits secs." },
-    "lokum": { "name": "Lokum", "desc": "Les loukoums turcs, tendres et parfumés." },
-    "tarte-daim": { "name": "Tarte au Daim", "desc": "Caramel croquant et chocolat." }
+    "berliner-classic": {
+      "name": "Berliner classic",
+      "desc": "Kebab maison, salade, tomate, oignon rouge."
+    },
+    "berliner-feta": {
+      "name": "Berliner fêta",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade."
+    },
+    "berliner-burrata": {
+      "name": "Berliner burrata",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, burrata."
+    },
+    "berliner-chevre-miel": {
+      "name": "Berliner chèvre miel",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, chèvre au miel."
+    },
+    "berliner-avocat": {
+      "name": "Berliner avocat",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, avocat."
+    },
+    "berliner-gemuse": {
+      "name": "Berliner Gemüse",
+      "desc": "Kebab maison, sauce blanche, salade, choux, légumes grillés (courgette, aubergine, carotte, poivron), fêta."
+    },
+    "berliner-chef": {
+      "name": "Berliner du chef",
+      "desc": "Escalope de poulet et kebab maison, sauce blanche, salade, choux, fêta, burrata ou chèvre miel au choix."
+    },
+    "berliner-trio": {
+      "name": "Berliner trio de fromages",
+      "desc": "Kebab maison, sauce blanche, salade croquante, choux, et le trio fêta, burrata, chèvre miel."
+    },
+    "berliner-raclette": {
+      "name": "Berliner raclette",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, raclette fondue."
+    },
+    "berliner-cheddar": {
+      "name": "Berliner cheddar",
+      "desc": "Kebab maison, sauce blanche, chou rouge, chou blanc, cheddar."
+    },
+    "berliner-poulet": {
+      "name": "Berliner poulet",
+      "desc": "Escalope de poulet milanaise, sauce gribiche, salade, citron."
+    },
+    "berliner-escalope-royale": {
+      "name": "Berliner escalope royale d'Amiens",
+      "desc": "Escalope de poulet et jambon de dinde aux champignons, tomates, oignons, sauce fromagère et sauce blanche."
+    },
+    "berliner-vegge": {
+      "name": "Berliner végé",
+      "desc": "Falafels, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade."
+    },
+    "durum-classic": {
+      "name": "Durum classic",
+      "desc": "Kebab maison, sauce blanche, salade, tomate, oignon rouge."
+    },
+    "durum-berliner": {
+      "name": "Durum Berliner",
+      "desc": "Kebab maison, sauce blanche, salade, choux, fêta, burrata ou cheddar au choix."
+    },
+    "durum-chef": {
+      "name": "Durum du chef",
+      "desc": "Kebab maison, sauce blanche, salade, choux, légumes grillés (courgette, aubergine, carotte, poivron), fêta."
+    },
+    "durum-mixte": {
+      "name": "Durum mixte",
+      "desc": "Kebab maison et escalope de poulet, sauce blanche, chou rouge, chou blanc."
+    },
+    "durum-avocat": {
+      "name": "Durum avocat",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, avocat."
+    },
+    "durum-cheddar": {
+      "name": "Durum cheddar",
+      "desc": "Kebab maison, salade, tomate, oignon, sauce blanche, cheddar."
+    },
+    "durum-raclette": {
+      "name": "Durum raclette",
+      "desc": "Kebab maison, sauce blanche, salade, chou rouge, chou blanc, raclette."
+    },
+    "durum-poulet": {
+      "name": "Durum poulet",
+      "desc": "Escalope de poulet milanaise, sauce gribiche, salade, citron."
+    },
+    "durum-escalope-royale": {
+      "name": "Durum escalope royale d'Amiens",
+      "desc": "Escalope de poulet et jambon de dinde aux champignons, tomates, oignons, sauce fromagère et sauce blanche."
+    },
+    "durum-vegge-feta": {
+      "name": "Durum végé fêta",
+      "desc": "Falafels, sauce blanche, salade, chou rouge, chou blanc, fêta, grenade."
+    },
+    "durum-vegan": {
+      "name": "Durum végan",
+      "desc": "Boulettes de lentilles, salade, chou rouge, chou blanc, graines de grenade, citron."
+    },
+    "assiette-classic": {
+      "name": "Assiette classic",
+      "desc": "Kebab maison, salade composée, frites maison."
+    },
+    "assiette-berliner": {
+      "name": "Assiette Berliner",
+      "desc": "Kebab maison, salade composée, choux, fêta, burrata ou chèvre miel au choix, frites maison."
+    },
+    "assiette-berliner-avocat": {
+      "name": "Assiette Berliner avocat",
+      "desc": "Kebab maison, salade composée, chou rouge, chou blanc, avocat, frites maison."
+    },
+    "assiette-chef": {
+      "name": "Assiette du chef",
+      "desc": "Kebab maison et escalope de poulet milanaise, salade composée, choux, fêta, burrata ou chèvre miel, frites maison."
+    },
+    "assiette-gemuse": {
+      "name": "Assiette Gemüse",
+      "desc": "Kebab maison, salade, choux, légumes grillés (courgette, poivron, aubergine, carotte), fêta, frites maison."
+    },
+    "assiette-trio": {
+      "name": "Assiette Berliner trio de fromages",
+      "desc": "Kebab maison, sauce blanche, salade composée, choux, fêta, burrata et chèvre miel, frites maison."
+    },
+    "assiette-poulet": {
+      "name": "Assiette poulet",
+      "desc": "Escalope de poulet milanaise, salade composée, frites maison."
+    },
+    "assiette-escalope-royale": {
+      "name": "Assiette escalope royale d'Amiens",
+      "desc": "Escalope de poulet et jambon de dinde aux champignons, salade composée, sauce fromagère et sauce blanche, frites maison."
+    },
+    "assiette-vegge": {
+      "name": "Assiette végé",
+      "desc": "Falafels, salade composée, chou rouge, chou blanc, fêta, frites maison."
+    },
+    "assiette-vegan": {
+      "name": "Assiette végan",
+      "desc": "Boulettes de lentilles, salade composée, chou rouge, chou blanc, frites maison."
+    },
+    "burger-classic": {
+      "name": "Burger classic",
+      "desc": "Pain du boulanger, steak frais (env. 150 g), cheddar, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison."
+    },
+    "burger-parisien": {
+      "name": "Burger parisien",
+      "desc": "Pain du boulanger, steak frais (env. 150 g), cheddar, bacon, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison."
+    },
+    "burger-raclette": {
+      "name": "Burger raclette",
+      "desc": "Pain du boulanger, steak frais (env. 150 g), raclette, salade, tomate, oignon, cornichon, sauce barbecue. Avec frites maison."
+    },
+    "burger-chevre-miel": {
+      "name": "Burger chèvre miel",
+      "desc": "Pain du boulanger, steak frais (env. 150 g), chèvre miel, salade, tomate, oignon, cornichon. Avec frites maison."
+    },
+    "chicken-burger": {
+      "name": "Chicken burger",
+      "desc": "Poulet pané, salade, tomate, oignon, cornichon, sauce gribiche. Avec frites maison."
+    },
+    "double-protein": {
+      "name": "Double protein burger",
+      "desc": "Steak de bœuf et filet de poulet, salade, tomate, oignon, cornichon, sauce barbecue, cheddar fondu. Avec frites maison."
+    },
+    "salade-feta": {
+      "name": "Salade fêta",
+      "desc": "Salade, tomate, concombre, chou rouge, chou blanc mariné, graines de grenade, fêta."
+    },
+    "salade-burrata": {
+      "name": "Salade burrata",
+      "desc": "La salade burrata du chef."
+    },
+    "salade-cesar": {
+      "name": "Salade César",
+      "desc": "Salade, tomates cerises, poulet tendre, olives, copeaux de parmesan, sauce César."
+    },
+    "salade-norvegienne": {
+      "name": "Salade norvégienne",
+      "desc": "Salade composée, tomates cerises, concombre, saumon fumé, olives, mozzarella."
+    },
+    "menu-enfant": {
+      "name": "Menu enfant",
+      "desc": "5 nuggets, hamburger ou petite assiette kebab, un Nutella B-ready et un Capri-Sun."
+    },
+    "frites-maison": {
+      "name": "Frites maison",
+      "desc": "Coupées et cuites ici."
+    },
+    "frites-cheddar": {
+      "name": "Frites cheddar",
+      "desc": "Frites maison, cheddar fondu."
+    },
+    "frites-cheddar-bacon": {
+      "name": "Frites cheddar bacon",
+      "desc": "Frites maison, cheddar fondu, bacon."
+    },
+    "soft": {
+      "name": "Canette 33 cl",
+      "desc": "Coca-Cola, Fanta, Orangina, Oasis, Tropico, Schweppes, Fuze Tea, Ice Tea, Perrier, Sprite."
+    },
+    "ayran": {
+      "name": "Ayran 25 cl",
+      "desc": "La boisson au yaourt, fraîche et légèrement salée."
+    },
+    "jus": {
+      "name": "Jus de fruits 25 cl",
+      "desc": "Orange, abricot, pomme ou ananas."
+    },
+    "diabolo": {
+      "name": "Diabolo 33 cl",
+      "desc": "Menthe, fraise, pêche, grenadine, citron ou violette."
+    },
+    "cristalline": {
+      "name": "Eau Cristalline 50 cl",
+      "desc": ""
+    },
+    "san-pellegrino": {
+      "name": "San Pellegrino 50 cl",
+      "desc": ""
+    },
+    "espresso": {
+      "name": "Café expresso",
+      "desc": ""
+    },
+    "double-espresso": {
+      "name": "Double expresso",
+      "desc": ""
+    },
+    "allonge": {
+      "name": "Café allongé",
+      "desc": ""
+    },
+    "americano": {
+      "name": "Café americano",
+      "desc": ""
+    },
+    "creme": {
+      "name": "Café crème",
+      "desc": ""
+    },
+    "cappuccino": {
+      "name": "Cappuccino",
+      "desc": ""
+    },
+    "baklava": {
+      "name": "Baklava",
+      "desc": "Feuilleté au miel et aux fruits secs."
+    },
+    "lokum": {
+      "name": "Lokum",
+      "desc": "Les loukoums turcs, tendres et parfumés."
+    },
+    "tarte-daim": {
+      "name": "Tarte au Daim",
+      "desc": "Caramel croquant et chocolat."
+    }
   },
   "blocks": {
     "doner": {
@@ -258,7 +466,14 @@
     "eyebrow": "Vos avis",
     "title": "4,9 sur 5. Merci.",
     "intro": "Plus de 500 avis sur Google. Ce qui revient le plus souvent :",
-    "themes": ["Des produits frais", "La fêta", "La burrata", "Le chèvre au miel", "La sauce blanche", "La terrasse au bord de l'eau"],
+    "themes": [
+      "Des produits frais",
+      "La fêta",
+      "La burrata",
+      "Le chèvre au miel",
+      "La sauce blanche",
+      "La terrasse au bord de l'eau"
+    ],
     "cta": "Lire les avis sur Google"
   },
   "order": {
@@ -281,7 +496,10 @@
     "drink": "Boisson du menu",
     "sauce": "Sauce",
     "modeTitle": "Sur place ou à emporter",
-    "modes": { "emporter": "À emporter", "surplace": "Sur place" },
+    "modes": {
+      "emporter": "À emporter",
+      "surplace": "Sur place"
+    },
     "modeHint": {
       "emporter": "Votre commande vous attend au comptoir à l'heure choisie.",
       "surplace": "On prépare tout pour votre arrivée : installez-vous, on vous sert."
@@ -351,7 +569,15 @@
     "accessText": "Dans le quartier Saint-Leu, sur les quais de la Somme, à 5 minutes à pied de la cathédrale. Le quai est piétonnier : venez à pied, à vélo, ou garez-vous dans un parking du centre-ville.",
     "route": "Itinéraire",
     "mapTitle": "Plan d'accès à Berlin Durum Kebab, 41 quai Belu, Amiens",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
     "closed": "Fermé",
     "services": "Sur place · à emporter · terrasse"
   },
@@ -359,12 +585,30 @@
     "eyebrow": "Questions fréquentes",
     "title": "Avant de venir.",
     "items": [
-      { "q": "Vous êtes ouverts quand ?", "a": "Tous les jours dès 11 h 30, jusqu'à 23 h, et jusqu'à minuit le vendredi et le samedi. Le mercredi, pause de 15 h 30 à 17 h 30." },
-      { "q": "Comment commander à emporter ?", "a": "Ajoutez vos plats depuis la carte, choisissez l'heure de retrait et envoyez : on prépare. Vous pouvez aussi appeler le 09 55 76 18 32." },
-      { "q": "Quel délai pour une commande ?", "a": "Comptez au moins 20 minutes : c'est le premier créneau proposé dans le formulaire. Aux heures de pointe, un appel permet de vérifier l'attente." },
-      { "q": "Comment je paie ?", "a": "Au comptoir, au moment du retrait ou à la fin du repas." },
-      { "q": "Il y a des plats végétariens ?", "a": "Oui : Berliner et durum aux falafels, durum et assiette végans aux boulettes de lentilles, salade fêta, frites maison. Tout est dans l'onglet « Végétarien »." },
-      { "q": "Où se garer ?", "a": "Le quai Belu est piétonnier. Les parkings du centre-ville sont à quelques minutes à pied ; la cathédrale est juste à côté pour se repérer." }
+      {
+        "q": "Vous êtes ouverts quand ?",
+        "a": "Tous les jours dès 11 h 30, jusqu'à 23 h, et jusqu'à minuit le vendredi et le samedi. Le mercredi, pause de 15 h 30 à 17 h 30."
+      },
+      {
+        "q": "Comment commander à emporter ?",
+        "a": "Ajoutez vos plats depuis la carte, choisissez l'heure de retrait et envoyez : on prépare. Vous pouvez aussi appeler le 09 55 76 18 32."
+      },
+      {
+        "q": "Quel délai pour une commande ?",
+        "a": "Comptez au moins 20 minutes : c'est le premier créneau proposé dans le formulaire. Aux heures de pointe, un appel permet de vérifier l'attente."
+      },
+      {
+        "q": "Comment je paie ?",
+        "a": "Au comptoir, au moment du retrait ou à la fin du repas."
+      },
+      {
+        "q": "Il y a des plats végétariens ?",
+        "a": "Oui : Berliner et durum aux falafels, durum et assiette végans aux boulettes de lentilles, salade fêta, frites maison. Tout est dans l'onglet « Végétarien »."
+      },
+      {
+        "q": "Où se garer ?",
+        "a": "Le quai Belu est piétonnier. Les parkings du centre-ville sont à quelques minutes à pied ; la cathédrale est juste à côté pour se repérer."
+      }
     ]
   },
   "reviewsLink": "Avis Google",
@@ -390,10 +634,22 @@
       "h1": "Kebab à Amiens : le kebab maison du quai Belu.",
       "intro": "Berlin Durum Kebab est au 41 quai Belu, dans le quartier Saint-Leu, au bord de la Somme. Ouvert tous les jours de 11 h 30 à 23 h (minuit le week-end), sur place, en terrasse ou à emporter.",
       "sections": [
-        { "h": "Un kebab 100 % maison", "p": "La viande, du veau et de la dinde, marine 24 heures puis confit 3 heures sur la broche, montée à la main chaque jour. Les frites sont coupées ici, les six sauces aussi : blanche, gribiche, ail légère, petit pois, tahini, cocktail." },
-        { "h": "Ce qu'on mange chez nous", "p": "Le Berliner (le kebab en pain pide, à la berlinoise) dès 9,99 €, le durum roulé dans une galette, des assiettes avec frites maison, des burgers au steak frais du boucher, des salades et des options végétariennes et véganes." },
-        { "h": "4,9 sur 5 sur Google", "p": "Plus de 500 clients ont laissé une note. Ce qu'ils retiennent : les produits frais, la fêta, la burrata, le chèvre au miel, la sauce blanche et la terrasse au bord de l'eau." },
-        { "h": "Venir au quai Belu", "p": "À 5 minutes à pied de la cathédrale d'Amiens, sur le quai piétonnier de Saint-Leu. Pour gagner du temps, commandez en ligne et choisissez votre heure de retrait." }
+        {
+          "h": "Un kebab 100 % maison",
+          "p": "La viande, du veau et de la dinde, marine 24 heures puis confit 3 heures sur la broche, montée à la main chaque jour. Les frites sont coupées ici, les six sauces aussi : blanche, gribiche, ail légère, petit pois, tahini, cocktail."
+        },
+        {
+          "h": "Ce qu'on mange chez nous",
+          "p": "Le Berliner (le kebab en pain pide, à la berlinoise) dès 9,99 €, le durum roulé dans une galette, des assiettes avec frites maison, des burgers au steak frais du boucher, des salades et des options végétariennes et véganes."
+        },
+        {
+          "h": "4,9 sur 5 sur Google",
+          "p": "Plus de 500 clients ont laissé une note. Ce qu'ils retiennent : les produits frais, la fêta, la burrata, le chèvre au miel, la sauce blanche et la terrasse au bord de l'eau."
+        },
+        {
+          "h": "Venir au quai Belu",
+          "p": "À 5 minutes à pied de la cathédrale d'Amiens, sur le quai piétonnier de Saint-Leu. Pour gagner du temps, commandez en ligne et choisissez votre heure de retrait."
+        }
       ],
       "cta": "Voir la carte"
     },
@@ -405,10 +661,22 @@
       "h1": "Le döner berlinois, version quai Belu.",
       "intro": "Le döner tel qu'on le mange à Berlin : généreux, croquant, plein de légumes. Chez Berlin Durum, on l'appelle le Berliner, et il se commande au 41 quai Belu, à Amiens.",
       "sections": [
-        { "h": "Qu'est-ce qui le rend berlinois ?", "p": "Un pain pide moelleux et doré, le kebab tranché à la broche, une montagne de crudités (salade, chou rouge, chou blanc), de la fêta, et souvent des légumes grillés : c'est le style Gemüse, devenu la signature des kebabs de Berlin." },
-        { "h": "Le Berliner Gemüse", "p": "Kebab maison, sauce blanche, choux, courgette, aubergine, carotte et poivron grillés, fêta. C'est notre façon de dire bonjour à Kreuzberg. 13,99 €, ou en menu avec frites maison et canette." },
-        { "h": "Et en durum ?", "p": "La même garniture, roulée dans une galette fine. Le durum classic démarre à 9,99 €, le durum du chef aux légumes grillés à 13,99 €." },
-        { "h": "Sans viande aussi", "p": "Berliner et durum aux falafels, durum et assiette végans aux boulettes de lentilles : le style berlinois marche très bien sans kebab." }
+        {
+          "h": "Qu'est-ce qui le rend berlinois ?",
+          "p": "Un pain pide moelleux et doré, le kebab tranché à la broche, une montagne de crudités (salade, chou rouge, chou blanc), de la fêta, et souvent des légumes grillés : c'est le style Gemüse, devenu la signature des kebabs de Berlin."
+        },
+        {
+          "h": "Le Berliner Gemüse",
+          "p": "Kebab maison, sauce blanche, choux, courgette, aubergine, carotte et poivron grillés, fêta. C'est notre façon de dire bonjour à Kreuzberg. 13,99 €, ou en menu avec frites maison et canette."
+        },
+        {
+          "h": "Et en durum ?",
+          "p": "La même garniture, roulée dans une galette fine. Le durum classic démarre à 9,99 €, le durum du chef aux légumes grillés à 13,99 €."
+        },
+        {
+          "h": "Sans viande aussi",
+          "p": "Berliner et durum aux falafels, durum et assiette végans aux boulettes de lentilles : le style berlinois marche très bien sans kebab."
+        }
       ],
       "cta": "Commander un Berliner"
     },
@@ -422,15 +690,18 @@
       "data": "Données personnelles",
       "dataText": "Les informations transmises par le formulaire de commande (nom, téléphone, e-mail, commande) servent uniquement à préparer votre commande et à vous recontacter à son sujet. Elles ne sont ni revendues ni utilisées à des fins publicitaires. Pour les consulter ou les faire supprimer : contactez le restaurant au 09 55 76 18 32.",
       "photos": "Photos et illustrations",
-      "photosText": "Photos : Berlin Durum Kebab. Illustrations et logo dessinés pour le site.",
+      "photosText": "Photos : Berlin Durum Kebab (fiche Google) ; photos d'illustration Unsplash ; quai Belu : Pierre Poschadel, CC BY-SA 4.0, via Wikimedia Commons. Logo et illustrations dessinés pour le site.",
       "toConfirm": "À remplir"
     }
   },
   "alt": {
-    "hero": "Un Berliner garni de kebab maison, de crudités et de fêta",
+    "hero": "Les plats de Berlin Durum : Berliner, durum, assiettes et frites maison",
     "terrasse": "La terrasse de Berlin Durum au bord de la Somme, quai Belu",
     "facade": "La façade de Berlin Durum Kebab, 41 quai Belu à Amiens",
     "comptoir": "La broche de kebab maison derrière le comptoir",
-    "sauces": "Les sauces maison de Berlin Durum"
+    "sauces": "Les sauces maison de Berlin Durum",
+    "quai-belu": "Le quai Belu à Amiens, au bord de la Somme",
+    "berliner-feta": "Berliner fêta de Berlin Durum, avec frites maison",
+    "salade-burrata": "Salade burrata de Berlin Durum"
   }
 }

@@ -99,7 +99,7 @@ function Seo({ lang, d, id }: { lang: Locale; d: Dict; id: "kebab" | "doner" }) 
         <p className="sign">{p.eyebrow}</p>
         <h1 className="display mt-5 text-[3rem] md:text-[5rem]">{p.h1}</h1>
         <p className="lead mt-6 max-w-3xl !text-[1.1875rem] !text-ink">{p.intro}</p>
-        <Photo paths={[id === "doner" ? "/media/plats/berliner-gemuse.jpg" : "/media/hero/hero.jpg"]} alt={d.alt.hero} illus={id === "doner" ? "berliner" : "spit"} tint={id === "doner" ? "mustard" : "ink"} sizes="(min-width: 1024px) 64rem, 100vw" className="mt-10 aspect-[21/9] border-2 border-ink" illusClassName="h-3/5 w-3/5 max-h-48 max-w-48" />
+        <Photo paths={id === "doner" ? ["/media/plats/berliner-gemuse.jpg", "/media/plats/berliner-feta.jpg"] : ["/media/hero/hero.jpg"]} alt={d.alt.hero} illus={id === "doner" ? "berliner" : "spit"} tint={id === "doner" ? "mustard" : "ink"} sizes="(min-width: 1024px) 64rem, 100vw" className="mt-10 aspect-[21/9] border-2 border-ink" illusClassName="h-3/5 w-3/5 max-h-48 max-w-48" />
         <div className="mt-12 grid gap-x-12 gap-y-10 md:grid-cols-2">
           {p.sections.map((s) => (
             <section key={s.h}>
