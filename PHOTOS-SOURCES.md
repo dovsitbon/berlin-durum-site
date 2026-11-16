@@ -3,7 +3,7 @@
 Relevé du 16/11/2026. Les fichiers sources sont dans `assets/`, préparés par `node scripts/fetch-photos.mjs` puis `npm run media` (WebP/AVIF servis par next/image).
 Sur le site, chaque photo libre de droits porte un petit badge « Illustration » et son texte alt le précise : aucune n'est présentée comme une photo du restaurant.
 
-## Photos réelles du restaurant (6 photos, 8 fichiers)
+## Photos réelles du restaurant (5 photos, 7 fichiers dont 2 recadrages)
 
 Source : fiche Google « Berlin & Durum kebab », onglet **Photos du propriétaire** (publiées par l'établissement). Originaux dans `assets/raw/berlindurum_owner_*.jpg`.
 À faire confirmer au restaurant (droit d'usage de ses propres photos sur son site : normalement acquis, mais à mentionner lors de la validation).
@@ -21,7 +21,7 @@ Source : fiche Google « Berlin & Durum kebab », onglet **Photos du propriétai
 Non utilisées : owner_3 et owner_9 (captures d'écran de téléphone), owner_5 et owner_7 (cartes papier, reprises en HTML), owner_8 (texte incrusté sur le plat).
 Instagram @berlin_durum consulté : publications surtout en vidéo avec texte incrusté (annonces, noms de plats), rien d'exploitable sans texte.
 
-## Photos libres de droits (28)
+## Photos libres de droits (28 fichiers, 27 affichés)
 
 ### Wikimedia Commons (1)
 
